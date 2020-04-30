@@ -1,0 +1,45 @@
+.cubmenu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 2px solid #2E64FE;
+  font-family: arial;
+  width: 840px;
+  text-align: center;
+  background-color: #33ADFF;
+}
+
+.cubmenu ul{
+        display: none;
+        background-color: #2E64FE;
+        position: absolute;
+        top: 100%;
+      }
+.cubmenu li:hover ul { display: block; }
+.cubmenu, .cubmenu ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      .cubmenu {
+        height: 30px;
+        background-color: #666;
+        padding-left: 35px;
+        min-width: 470px;
+      }
+      .cubmenu li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      .cubmenu li a {
+        display: block;
+        padding: 6px;
+        width: 120px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+    .cubmenu ul li { float: none; }
+    .cubmenu li:hover { background-color: #2E64FE; }
+    .cubmenu ul li:hover { background-color: #666; }
